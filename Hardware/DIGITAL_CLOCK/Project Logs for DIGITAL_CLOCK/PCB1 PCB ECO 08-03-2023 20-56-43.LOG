@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=LED_BLINK Pin=J2-25
+Removed Pin From Net: NetName=LED_BLINK Pin=J2-26
+Added Pin To Net: NetName=LED_BLINK Pin=J1-31
+Added Pin To Net: NetName=LED_BLINK Pin=J1-32
+Added Member To Class: ClassName=Power_Supply Member=Component D7 D Schottky

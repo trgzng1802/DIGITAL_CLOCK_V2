@@ -1,0 +1,93 @@
+Removed Pin From Net: NetName=I2C1_SDA Pin=U1-14
+Removed Pin From Net: NetName=I2C1_SCL Pin=U1-15
+Removed Pin From Net: NetName=+5 Pin=U1-18
+Removed Pin From Net: NetName=GND Pin=U1-19
+Removed Pin From Net: NetName=TIM2_CH1 Pin=U1-25
+Removed Pin From Net: NetName=TIM2_CH2 Pin=U1-26
+Removed Pin From Net: NetName=SW_PIN Pin=U1-27
+Removed Pin From Net: NetName=LED_BLINK Pin=U1-28
+Removed Pin From Net: NetName=SPI1_CLK Pin=U1-30
+Removed Pin From Net: NetName=LATCH Pin=U1-31
+Removed Pin From Net: NetName=SPI1_MOSI Pin=U1-32
+Removed Pin From Net: NetName=GND Pin=U1-39
+Removed Pin From Net: NetName=GND Pin=U1-40
+Removed Member From Class: ClassName=Peripherials Member=D7
+Removed Member From Class: ClassName=Peripherials Member=R2
+Removed Member From Class: ClassName=MCU Member=U1
+Change Component Designator: OldDesignator=U2 NewDesignator=U1
+Change Component Designator: OldDesignator=U3 NewDesignator=U2
+Change Component Designator: OldDesignator=U4 NewDesignator=U3
+Change Component Designator: OldDesignator=U5 NewDesignator=U4
+Change Component Designator: OldDesignator=U6 NewDesignator=U5
+Change Component Designator: OldDesignator=U7 NewDesignator=U6
+Change Component Designator: OldDesignator=U8 NewDesignator=U7
+Added Component: Designator=J1(61004021821)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/catalog/datasheet/61004021821.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Socket Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "61004021821"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 to +105degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published Date"; Value = "May 2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Number"; Value = "Dual"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "600VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250VAC"; VariantName = "[No Variations]"
+Added Component: Designator=J2(61004021821)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/catalog/datasheet/61004021821.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Socket Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "61004021821"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 to +105degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published Date"; Value = "May 2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Number"; Value = "Dual"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "600VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250VAC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=I2C1_SDA Pin=J1-27
+Added Pin To Net: NetName=I2C1_SDA Pin=J1-28
+Added Pin To Net: NetName=I2C1_SCL Pin=J1-29
+Added Pin To Net: NetName=I2C1_SCL Pin=J1-30
+Added Pin To Net: NetName=+5 Pin=J1-35
+Added Pin To Net: NetName=+5 Pin=J1-36
+Added Pin To Net: NetName=GND Pin=J1-37
+Added Pin To Net: NetName=GND Pin=J1-38
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-3
+Added Pin To Net: NetName=GND Pin=J2-4
+Added Pin To Net: NetName=SPI1_MOSI Pin=J2-17
+Added Pin To Net: NetName=SPI1_MOSI Pin=J2-18
+Added Pin To Net: NetName=LATCH Pin=J2-19
+Added Pin To Net: NetName=LATCH Pin=J2-20
+Added Pin To Net: NetName=SPI1_CLK Pin=J2-21
+Added Pin To Net: NetName=SPI1_CLK Pin=J2-22
+Added Pin To Net: NetName=LED_BLINK Pin=J2-25
+Added Pin To Net: NetName=LED_BLINK Pin=J2-26
+Added Pin To Net: NetName=SW_PIN Pin=J2-27
+Added Pin To Net: NetName=SW_PIN Pin=J2-28
+Added Pin To Net: NetName=TIM2_CH2 Pin=J2-29
+Added Pin To Net: NetName=TIM2_CH2 Pin=J2-30
+Added Pin To Net: NetName=TIM2_CH1 Pin=J2-31
+Added Pin To Net: NetName=TIM2_CH1 Pin=J2-32
+Added Member To Class: ClassName=Peripherials Member=Component D5 LED
+Added Member To Class: ClassName=MCU Member=Component J1 61004021821
+Added Member To Class: ClassName=MCU Member=Component J2 61004021821
+Added Member To Class: ClassName=Peripherials Member=Component R1 RESISTOR SMD

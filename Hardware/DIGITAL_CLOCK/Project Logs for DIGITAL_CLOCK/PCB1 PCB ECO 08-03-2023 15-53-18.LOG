@@ -1,0 +1,19 @@
+Change Component Designator: OldDesignator=D5 NewDesignator=D7
+Change Component Designator: OldDesignator=R1 NewDesignator=R2
+Added Component: Designator=D5(LED-3mm)
+Added Component: Designator=D6(LED-3mm)
+Added Component: Designator=R1(RES-SM-0805)
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D5-2
+Added Pin To Net: NetName=GND Pin=D6-2
+Change Net Name : Old Net Name=NetD5_1 New Net Name=NetD7_1
+Added Pin To Net: NetName=LED_BLINK Pin=R1-1
+Added Pin To Net: NetName=LED_BLINK Pin=U1-28
+Added Net: Name=LED_BLINK
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=NetD5_1 Pin=D6-1
+Added Pin To Net: NetName=NetD5_1 Pin=R1-2
+Added Net: Name=NetD5_1
+Added Member To Class: ClassName=Peripherials Member=Component D5 LED
+Added Member To Class: ClassName=Peripherials Member=Component D6 LED
+Added Member To Class: ClassName=Peripherials Member=Component R1 RESISTOR SMD

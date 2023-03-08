@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=LATCH Pin=J2-19
+Removed Pin From Net: NetName=LATCH Pin=J2-20
+Added Pin To Net: NetName=LATCH Pin=J2-35
+Added Pin To Net: NetName=LATCH Pin=J2-36
+Added Member To Class: ClassName=Peripherials Member=Component U1 74HC595
+Added Member To Class: ClassName=Peripherials Member=Component U2 74HC595
