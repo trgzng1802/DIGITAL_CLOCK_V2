@@ -1,0 +1,5 @@
+../Libs/Src/DS3231.c:12:16:Dec_To_Bcd	16	static
+../Libs/Src/DS3231.c:17:16:Bcd_To_Dec	16	static
+../Libs/Src/DS3231.c:22:6:DS3231_Init	16	static
+../Libs/Src/DS3231.c:27:6:DS3231_Set_Time	40	static
+../Libs/Src/DS3231.c:41:6:DS3231_Get_Time	40	static

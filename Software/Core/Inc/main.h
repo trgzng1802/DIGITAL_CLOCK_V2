@@ -59,8 +59,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define SW_PIN_Pin GPIO_PIN_2
 #define SW_PIN_GPIO_Port GPIOA
-#define LACTH_PIN_Pin GPIO_PIN_6
-#define LACTH_PIN_GPIO_Port GPIOA
+#define LATCH_Pin GPIO_PIN_6
+#define LATCH_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

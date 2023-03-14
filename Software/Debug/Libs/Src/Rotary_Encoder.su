@@ -1,0 +1,6 @@
+../Libs/Src/Rotary_Encoder.c:9:13:RE_Clockwise_Callback	16	static
+../Libs/Src/Rotary_Encoder.c:14:13:RE_Counter_Clockwise_Callback	16	static
+../Libs/Src/Rotary_Encoder.c:19:6:HAL_TIM_IC_CaptureCallback	16	static
+../Libs/Src/Rotary_Encoder.c:27:6:RE_Init	16	static
+../Libs/Src/Rotary_Encoder.c:35:6:RE_Get_Value	24	static
+../Libs/Src/Rotary_Encoder.c:41:6:RE_Handle	16	static

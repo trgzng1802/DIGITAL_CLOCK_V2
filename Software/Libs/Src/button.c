@@ -15,8 +15,8 @@
 #define NOT_PRESS_LONG				0
 #define BUTTON_FILTER               1
 #define BUTTON_DEBOUNCING_TIME      15
-#define BUTTON_PRESS_SHORT_TIME     1000    /*Pressing under 1s*/
-#define BUTTON_PRESS_LONG_TIME      3000    /*Pressing 3s above*/
+#define BUTTON_PRESS_SHORT_TIME     500    /*Pressing under 1s*/
+#define BUTTON_PRESS_LONG_TIME      2000    /*Pressing 3s above*/
 
 /**
  * @brief 
@@ -112,6 +112,7 @@ void BUTTON_Handle(BUTTON_HandleTypeDef *p_button)
     	}
     	else
     	{
+    		p_button->is_press_long = NOT_PRESS_LONG;
     		if (HAL_GetTick() - p_button->time_start_press <= BUTTON_PRESS_SHORT_TIME)
     		{
     			BUTTON_Short_Pressing_Callback(p_button);
@@ -121,7 +122,7 @@ void BUTTON_Handle(BUTTON_HandleTypeDef *p_button)
     	p_button->button_last_state = p_button->button_current_state;
     }
 
-    if (p_button->is_press_long && p_button->time_start_press >= BUTTON_PRESS_LONG_TIME)
+    if (p_button->is_press_long && (HAL_GetTick() -  p_button->time_start_press >= BUTTON_PRESS_LONG_TIME))
     {
     	BUTTON_Long_Pressing_Callback(p_button);
     	p_button->is_press_long = NOT_PRESS_LONG;

@@ -25,7 +25,10 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ C:/Data/Projects/HPBD/Software/Libs/Inc/button.h \
+ C:/Data/Projects/HPBD/Software/Libs/Inc/Rotary_Encoder.h \
+ C:/Data/Projects/HPBD/Software/Libs/Inc/Display.h \
+ C:/Data/Projects/HPBD/Software/Libs/Inc/DS3231.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -53,4 +56,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
-../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
+C:/Data/Projects/HPBD/Software/Libs/Inc/button.h:
+C:/Data/Projects/HPBD/Software/Libs/Inc/Rotary_Encoder.h:
+C:/Data/Projects/HPBD/Software/Libs/Inc/Display.h:
+C:/Data/Projects/HPBD/Software/Libs/Inc/DS3231.h:

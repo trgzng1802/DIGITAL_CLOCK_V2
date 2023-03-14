@@ -1,0 +1,6 @@
+../Libs/Src/button.c:27:13:BUTTON_Pressing_Callback	16	static
+../Libs/Src/button.c:38:13:BUTTON_Short_Pressing_Callback	16	static
+../Libs/Src/button.c:49:13:BUTTON_Long_Pressing_Callback	16	static
+../Libs/Src/button.c:60:13:BUTTON_Releasing_Callback	16	static
+../Libs/Src/button.c:72:6:BUTTON_Init	24	static
+../Libs/Src/button.c:88:6:BUTTON_Handle	24	static

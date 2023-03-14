@@ -1,4 +1,9 @@
 {
     "stm32-for-vscode.makePath": "C:\\USERS\\PHANG\\APPDATA\\ROAMING\\CODE\\USER\\GLOBALSTORAGE\\BMD.STM32-FOR-VSCODE\\@XPACK-DEV-TOOLS\\WINDOWS-BUILD-TOOLS\\4.4.0-1.1\\.CONTENT\\BIN\\MAKE.EXE",
-    "stm32-for-vscode.armToolchainPath": "c:\\Users\\phang\\AppData\\Roaming\\Code\\User\\globalStorage\\bmd.stm32-for-vscode\\@xpack-dev-tools\\arm-none-eabi-gcc\\12.2.1-1.2.1\\.content\\bin"
+    "stm32-for-vscode.armToolchainPath": "c:\\Users\\phang\\AppData\\Roaming\\Code\\User\\globalStorage\\bmd.stm32-for-vscode\\@xpack-dev-tools\\arm-none-eabi-gcc\\12.2.1-1.2.1\\.content\\bin",
+    "files.associations": {
+        "*.m": "matlab",
+        "display.h": "c",
+        "main.h": "c"
+    }
 }
